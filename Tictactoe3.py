@@ -72,7 +72,6 @@ def coin_flip():
 #Little test below | CHECK!
 # print(coin_flip())
 
-
 #Set win_check with the parameters(board,mark)
 def win_check(board,mark):
     return ((board[1]==board[2]==board[3]==mark) or #first across
@@ -112,7 +111,6 @@ def replay():
 #little test below | CHECK!
 # print(replay())
 
-
 #Set everything up
 
 print('Welcome to my Tic Tac Toe Game!')
@@ -147,9 +145,7 @@ while True:
                 break
             else:
                 choice = 'Player 2'
-            
-
-
+        
 
         #Player 2 
         if choice == 'Player 2':
