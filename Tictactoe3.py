@@ -119,12 +119,13 @@ print('Welcome to my Tic Tac Toe Game!')
 
 choice = coin_flip()
 play_game = input('Want to play a game? Y or N: ').upper()
-player1,player2 = character_symbol()
+
 while True:
     gamy_board = [' ']*10
     
     if play_game == 'Y':
         game_on = True
+        player1,player2 = character_symbol()
     else:
         game_on = False
     
